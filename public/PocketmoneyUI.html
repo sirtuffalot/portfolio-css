@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PocketMoney</title>
+    <style>
+        .container{
+            display: flex;
+            height: 100vh;
+            justify-content:center;
+             align-items: center;
+        }
+        .card{
+            background-color:blanchedalmond;
+            border-radius:10px;
+            width:350px;
+            border:3px solid;
+            
+            
+          
+            
+        }
+        body{
+            text-align:center;
+        }
+
+        .spend{
+            background-color: red;
+            border:3px solid;
+            border-radius:5px;
+            margin-bottom:10px;
+            padding:5px;
+          
+        }
+
+         .save{
+            background-color: green;
+            border:3px solid;
+            border-radius:5px;
+            margin-bottom:10px;
+            padding:5px;
+          
+        }
+
+        .balance{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            margin-bottom:10px;
+        }
+
+        
+           
+      
+        P{
+            margin:0;
+            padding:0;
+        }
+        h1{
+            background-color: green;
+        }
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .date{
+            font-weight: bold;
+            font-size:19px;
+            margin-bottom: 10px;
+        }
+        span{
+            background-color: white;
+            border:2px solid;
+            padding:2px;
+            display: inline-block;
+        }
+       .button > *:hover{
+            background-color: black;
+            color:white;
+        }
+
+        @media(max-width:400px){
+            .container{
+                width:90%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>PocketMoney&copy</h1>
+            <h2>🧔Philip's Pocket Money</h2>
+            <p class="balance">💰Balance:<span>76,000</span></p>
+            <p class="date">🗓️ week: june 16 - june 23 </p>
+            <div class="button">
+                <button class="spend">➖ Spend</button>
+                <button class="save">➕ Save</button>
+
+            </div>
+        
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
